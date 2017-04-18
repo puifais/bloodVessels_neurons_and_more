@@ -9,9 +9,6 @@ warpx = X*cos(Theta) +Y*sin(Theta) ;
                 S = svd(Rotdata);
                 seperability = S(1)^2/sum(S.^2);
 
-% Savename2 = 'C:\Nozomi\Rotdata.raw';    
-% fid = fopen(Savename2, 'w');
-% opened = fwrite(fid, Rotdata, 'uint8');
-% fclose(fid);
+
 
 
